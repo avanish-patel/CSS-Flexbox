@@ -1,0 +1,57 @@
+.flexcontainer{
+
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+}
+
+.box1{
+
+    background-color: green;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box2{
+
+    background-color: blue;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+}
+.box3{
+
+    background-color:black;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+
+    order: -1000;
+}
+
+.box4{
+
+    background-color:red;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+    
+    order: -1;
+}
+
+
